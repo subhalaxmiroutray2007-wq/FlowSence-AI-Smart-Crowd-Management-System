@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.flowsense.crowdapp-merged_res-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.flowsense.crowdapp-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.flowsense.crowdapp-merged_res-32:/xml_backup_rules.xml.flat",
+        "source": "com.flowsense.crowdapp-main-34:/xml/backup_rules.xml"
+    }
+]

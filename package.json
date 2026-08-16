@@ -1,0 +1,32 @@
+{
+  "name": "flowsense-ai-mobile",
+  "version": "2.4.0",
+  "description": "FlowSense AI — Smart Crowd Management System Mobile Application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx servor ./ 5173 --reload",
+    "build": "echo 'Static web assets ready for mobile build'",
+    "cap:init": "npx @capacitor/cli init FlowSense com.flowsense.crowdapp --web-dir .",
+    "cap:add:android": "npx @capacitor/cli add android",
+    "cap:sync": "npx @capacitor/cli sync",
+    "cap:open:android": "npx @capacitor/cli open android"
+  },
+  "keywords": [
+    "crowd-management",
+    "gemini-ai",
+    "pwa",
+    "capacitor",
+    "mobile-app",
+    "virtual-queue",
+    "india"
+  ],
+  "author": "FlowSense AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
